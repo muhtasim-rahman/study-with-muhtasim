@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.section-title h3 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+.heading-hr {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 70px;
+}
+
+/* Header Start */
+header {
+  background: url(Images/Banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+.navbar {
+  padding: 10px 5%;
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 15vh;
+}
+.navbar-icon {
+  color: white;
+  background-color: transparent;
+}
+.navbar-brand img {
+  height: 60px;
+}
+.nav-link {
+  color: white;
+  border-radius: 5px;
+  padding-left: 5px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  background-color: #2980b9;
+  color: white;
+  transform: scale(1.05);
+}
+
+.banner-container {
+  min-height: 85vh;
+}
+.banner-contents h1 {
+  font-size: 56px;
+  background-color: rgba(7, 101, 189, 0.8);
+  padding: 10px 20px;
+  font-family: "Handlee", cursive;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .nav-link {
+    background-color: #00000050;
+    padding: 0 auto;
+    padding-left: 15px;
+    margin: 1px 0;
+  }
+  .banner-contents h1 {
+    font-size: 40px;
+    padding: 5px 10px;
+  }
+}
+/* Header End */
+
+/* Features Starts */
+#features {
+  padding: 1% 5%;
+  background-color: #ebded2;
+}
+.features-col {
+  border: 1px solid #ff02c0;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  transition: 0.4s;
+}
+.features-col:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 4px 5px black;
+}
+.icon-style {
+  background-color: #bb0aac;
+  padding: 15px;
+  color: white;
+  margin: 5px 0;
+  width: 80px;
+  height: 80px;
+}
+/* Features Ends */
+
+/* About me Starts */
+#about-me {
+  padding: 1% 5%;
+  background-color: #ebded2;
+}
+
+/***********************************/
+.about-me p {
+  text-align: justify;
+  font-size: 16px;
+  text-align: left;
+}
+.about-me a {
+  color: black;
+  text-decoration: none;
+}
+.about-me a:hover {
+  color: rgb(16, 33, 117);
+  text-decoration: underline;
+}
+
+/******************************/
+.work .description img {
+  height: 250px;
+  width: auto;
+  padding: 25px 0 0 25px;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 300px) {
+  .work .description img {
+    height: 150px;
+    width: 150px;
+  }
+}
+.work .description p {
+  padding: 0 5px 50px 5px;
+  font-size: 13px;
+}
+
+/***********************************/
+
+.education .card-description {
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+/* About me Ends */
+
+/* Tutorials Starts */
+.tutorials {
+  padding: 1% 5%;
+  background-color: #a3d2ca;
+}
+.tutorials .card {
+  transition: 0.5s;
+  border: 1px solid black;
+}
+.tutorials .card:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 4px 5px rgb(90, 90, 90);
+}
+.card-title {
+  font-size: 30px;
+}
+@media (min-width: 992px) {
+  .card-title {
+    font-size: 20px;
+  }
+}
+/* Tutorials ends */
+
+/* Feedback starts */
+.feedback {
+  padding: 5%;
+  background-color: #69b9b5;
+}
+.carousel-indicators {
+  bottom: -15px;
+}
+.carousel-item {
+  padding: 10% 15%;
+  padding-top: 5%;
+}
+/* Feedback ends */
+
+/* Contact Starts */
+.contact {
+  background-color: #3d9796;
+  padding: 1% 5%;
+}
+.btn-container {
+  padding: 1% 5%;
+}
+.contact textarea {
+  max-height: 250px;
+}
+/* Contact ends */
+
+/* Footer starts */
+footer {
+  padding: 1% 5%;
+  background-color: #056676;
+  color: white;
+}
+/* Footer ends */
